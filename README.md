@@ -5,10 +5,10 @@
 ### User Story 1
 
 #### Login
-To login to Spotify and retreive a token, we first setup an API in the Spotify Dashboard. Then using the Spotify authentication system we prompt the user to log in. We locally store a token in a `ViewPager` so that it can easily be accessed by any of our fragments.
+To login into Spotify and retrieve a token, we first set up an API in the Spotify Dashboard. Then, using the Spotify authentication system, we prompt the user to log in. We locally store a token in a `ViewPager` so that it can easily be accessed by any of our fragments.
 
 #### Information Retrieval and Display
-For the Spotify Wrapped we focused on six main pages – Top Songs, Top Artists, Top Genres, Audio Features, Recommended Artists, and LLM Description of Tastes and Styles.
+For the Spotify Wrapped, we focused on six main pages – Top Songs, Top Artists, Top Genres, Audio Features, Recommended Artists, and an LLM Description of tastes and styles.
 
 For the Top Songs and Top Artists pages, we used the top items endpoint. We implemented a callback function such that once we receive the contents we call another method. This method takes in the top 5 artists and uses the artist information endpoint to retrieve information about each artist. Using this information we create a list of the top genres of the user. 
 
@@ -44,9 +44,9 @@ For user story 4, we had to implement a way to recommend new artists to the user
 <img src="./images/user_story4/recommended_artists.png" alt="Recommended Artists" width=200px>
 
 ### User Story 5
-_As a user, I would like to control the timespan of the generated Wrapped summary._
+_As a user, I would like to control the time span of the generated Wrapped summary._
 
-Upon clicking the "Spotify Wrapped" button to generate a new Wrapped summary, the user is prompted with a menu of possible time frames. Once one option is selected, a Spotify Wrapped summary will be generated with respect to data from that timespan. Thus, the user becomes satisfied with the ability to control the timespan of the generated Wrapped summary.
+Upon clicking the "Spotify Wrapped" button to generate a new Wrapped summary, the user is prompted with a menu of possible time frames. Once one option is selected, a Spotify Wrapped summary will be generated with respect to data from that time span. Thus, the user becomes satisfied with the ability to control the time span of the generated Wrapped summary.
 
 <img src="./images/user_story5/wrapped_timespan.png" alt="Spotify Wrapped Timespan" width=200px>
 
@@ -84,7 +84,7 @@ Another challenge we had when following this simplistic approach was how to reco
 
 <img src="./images/process/diagram2.png" alt="Process Diagram 2" width=400px>
 
-When using the Trello board we separated activities with what to do, currently working on, what needs to be reviewed, and what is already done. We assigned activities to other people with certain activities having two people, we assigned the activities based on what we wanted to work on or based on our abilities. Activities with two people were selected on the basis that they required more work than the other activities or because we wanted to collaborate to speed up the process. The image below shows an example of our Trello board's history.
+When using the Trello board we separated activities with what to do, currently working on, what needs to be reviewed, and what is already done. We assigned activities to other people with certain activities having two people. We assigned the activities based on what we wanted to work on or based on our abilities. Activities with two people were selected on the basis that they required more work than the other activities or because we wanted to collaborate to speed up the process. The image below shows an example of our Trello board's history.
 
 <img src="./images/process/trello_screenshot.png" alt="Trello Screenshot" width=400px>
 
