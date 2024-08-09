@@ -1,4 +1,5 @@
 # Spotify Wrapped
+An Android app for Spotify users to view and track their Spotify Wrapped summaries.
 
 ## User Stories
 
